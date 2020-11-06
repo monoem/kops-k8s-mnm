@@ -65,7 +65,7 @@ kops create cluster \
 --node-count=2 \
 --master-size=t2.micro \
 --node-size=t2.micro \
---zones=ap-south-1a,ap-south-1b \
+--zones=ap-eu-west-3a,eu-west-3b \
 --name=${KOPS_CLUSTER_NAME} \
 --dns private \
 --master-count 1
