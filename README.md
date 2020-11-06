@@ -31,7 +31,7 @@ aws s3 mb s3://mnm.fr.k8s --region eu-west-3
 ```
 ### 6. Create private hosted zone in AWS Route53
  1. Head over to aws Route53 and create hostedzone
- 2. Choose name for example (javahome.in)
+ 2. Choose name for example (mnm.fr)
  3. Choose type as privated hosted zone for VPC
  4. Select default vpc in the region you are setting up your cluster
  5. Hit create
