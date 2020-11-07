@@ -67,8 +67,8 @@ kops create cluster \
 --node-size=t2.micro \
 --zones=eu-west-3a, eu-west-3b \
 --name=${KOPS_CLUSTER_NAME} \
---dns private \
---master-count 1
+--dns=private \
+--master-count=1
 ```
 
 ### 10. Create kubernetes cluster
