@@ -4,9 +4,4 @@ metadata:
   name: nodeapp
   labels:
     app: nodeapp
-spec:
-  containers:
-    - name: nodeapp
-      image: monoem/nodeapp:v1
-      ports:
-        - containerPort: 8080
+
