@@ -9,4 +9,8 @@ spec:
     - name: nodeapp
       image: monoem/nodeapp:v1
       ports:
-        - containerPort: 8080
+        - name : nodeapp
+            containerPort: 8080
+            protocol: TCP
+
+EOF
